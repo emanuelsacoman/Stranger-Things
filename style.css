@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+h1,h2,h3,h4 {
+    font-weight: 1000;
+    color: white;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    display: block;
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section.module p {
+    margin-bottom: 40px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+section.module:last-child{
+    margin-bottom: 0;
+}
+
+section.module h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.module.content{
+    padding: 40px 0;
+    background: linear-gradient(to bottom, #363636 20%, #474747);
+}
+
+section.module.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+section.module.parallax:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0)0, rgba(0,0,0,0)40%, #000 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0)0, rgba(0,0,0,0)40%, #000 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0)0, rgba(0,0,0,0)40%, #000 100%);
+}
+
+section.module.parallax-1 {
+    background-image: url("https://images3.alphacoders.com/882/882548.jpg");
+}
+
+section.module.parallax-2 {
+    background-image: url("https://images5.alphacoders.com/882/882383.jpg");
+}
+
+section.module.parallax-3 {
+    background-image: url("https://popnow.com.br/wp-content/uploads/2021/07/E6WHeh0VEAQXUg--scaled-e1626385016551.jpeg");
+}
+
+section.module.parallax h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+}
