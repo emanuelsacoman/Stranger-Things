@@ -5,6 +5,11 @@ body {
     font-family: sans-serif;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {
@@ -14,6 +19,31 @@ body::-webkit-scrollbar {
 h1,h2,h3,h4 {
     font-weight: 1000;
     color: white;
+}
+
+h1.first {
+    text-shadow: 2px 2px black;
+    margin-top: 32vh;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.button > img{
+    z-index: 60;
+    width: 60px;
+    animation: jumping 1.2s ease-in-out infinite;
+    margin-top: 25vh;
+    cursor: pointer;
+}
+
+@keyframes jumping {
+    from {transform: translateY(-15px);}
+    50% {transform: translateY(0);}
+    to {transform: translateY(-15px);}
 }
 
 .wrapper {
@@ -51,6 +81,33 @@ section.module h2 {
 section.module.content{
     padding: 40px 0;
     background: linear-gradient(to bottom, #363636 20%, #474747);
+}
+
+section.module.contenttwo{
+    padding: 20px 0;
+    background: linear-gradient(to top, #363636 20%, #474747);
+}
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 img {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    transition: filter .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+}
+
+.container2 img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
 }
 
 section.module.parallax {
@@ -91,6 +148,10 @@ section.module.parallax-2 {
 
 section.module.parallax-3 {
     background-image: url("https://popnow.com.br/wp-content/uploads/2021/07/E6WHeh0VEAQXUg--scaled-e1626385016551.jpeg");
+}
+
+section.module.parallax-4 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Matt_%26_Ross_Duffer_%2836214184705%29.jpg/1920px-Matt_%26_Ross_Duffer_%2836214184705%29.jpg");
 }
 
 section.module.parallax h1 {
