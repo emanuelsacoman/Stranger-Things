@@ -26,6 +26,10 @@ h1.first {
     margin-top: 32vh;
 }
 
+h1 {
+    text-shadow: 2px 2px black;
+}
+
 .button {
     display: flex;
     justify-content: center;
