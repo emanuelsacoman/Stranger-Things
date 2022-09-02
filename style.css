@@ -174,8 +174,12 @@ section.module.parallax h1 {
 }
 
 @media screen and (max-width: 500px) {
-    h1 {
-        font-weight: 600;
+    section.module.parallax h1 {
+        color: #fff;
+        text-align: center;
+        font-size: 64px;
+        z-index: 50;
+        text-transform: uppercase;
     }
     p {
 
@@ -184,4 +188,48 @@ section.module.parallax h1 {
     html {
         overflow-x: hidden;
     }
-}
+
+    @media screen and (max-width: 437px) {
+        section.module h2 {
+            font-size: 28px;
+        }
+        p {
+            margin-right: 36px;
+        }
+        section.module.parallax h1 {
+            color: #fff;
+            text-align: center;
+            font-size: 54px;
+            z-index: 50;
+            text-transform: uppercase;
+        }
+        html {
+            overflow-x: hidden;
+        }
+    @media screen and (max-width: 360px) {
+        section.module.parallax h1 {
+            color: #fff;
+            text-align: center;
+            font-size: 50px;
+            z-index: 50;
+            text-transform: uppercase;
+        }
+        section.module h2 {
+            font-size: 22px;
+        }
+    }
+    @media screen and (max-width: 360px) {
+        section.module.parallax h1 {
+            color: #fff;
+            text-align: center;
+            font-size: 46px;
+            z-index: 50;
+            text-transform: uppercase;
+        }
+        section.module.contenttwo{
+            padding: 10px 0;
+            background: linear-gradient(to top, #363636 20%, #474747);
+        }
+
+    }
+}}
