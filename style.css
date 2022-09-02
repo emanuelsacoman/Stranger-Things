@@ -91,6 +91,7 @@ section.module.contenttwo{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .container2 img {
@@ -109,7 +110,6 @@ section.module.contenttwo{
     -webkit-filter: brightness(120%);
     filter: brightness(120%);
 }
-
 section.module.parallax {
     display: flex;
     flex-direction: column;
@@ -160,4 +160,28 @@ section.module.parallax h1 {
     font-size: 78px;
     z-index: 50;
     text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 790px) {
+    html {
+        overflow-x: hidden;
+    }
+    p {
+        margin-right: 30px;
+    }
+        
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-weight: 600;
+    }
+    p {
+
+        margin-right: 36px;
+    }
+    html {
+        overflow-x: hidden;
+    }
 }
