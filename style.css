@@ -143,19 +143,19 @@ section.module.parallax:after {
 }
 
 section.module.parallax-1 {
-    background-image: url("https://images3.alphacoders.com/882/882548.jpg");
+    background-image: url("images/wallpaper1.jpg");
 }
 
 section.module.parallax-2 {
-    background-image: url("https://images5.alphacoders.com/882/882383.jpg");
+    background-image: url("images/wallpaper2.jpg");
 }
 
 section.module.parallax-3 {
-    background-image: url("https://popnow.com.br/wp-content/uploads/2021/07/E6WHeh0VEAQXUg--scaled-e1626385016551.jpeg");
+    background-image: url("images/wallpaper3.jpeg");
 }
 
 section.module.parallax-4 {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Matt_%26_Ross_Duffer_%2836214184705%29.jpg/1920px-Matt_%26_Ross_Duffer_%2836214184705%29.jpg");
+    background-image: url("images/wallpaper4.jpg");
 }
 
 section.module.parallax h1 {
